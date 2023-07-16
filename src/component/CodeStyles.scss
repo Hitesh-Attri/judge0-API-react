@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  height: 0;
+}
+
+.ce-header {
+  height: 6vh;
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(127, 164, 197);
+  padding: 0 2em;
+
+  .select-lang {
+    padding: 10px;
+    background: #23252b;
+    border: none;
+    border-radius: 0.4em;
+    outline: none;
+    font-size: 18;
+
+    .option {
+      font-size: 16px;
+    }
+  }
+
+  .logoutBTN,
+  .runBTN {
+    color: azure;
+    background-color: gray;
+    padding: 0.2em 0.2em;
+    border-radius: 0.2em;
+  }
+}
+
+.code-box {
+  margin: 0;
+  background-color: #23252b;
+  color: azure;
+  padding: 0.7rem;
+  overflow: auto;
+  outline: none;
+  border: none;
+  height: 70vh;
+  width: 100vw;
+  resize: none;
+  /* margin-right: 0.6rem; */
+}
+
+.inout-output-tabs {
+  padding: 0 2em;
+
+  .output,
+  .input {
+    background-color: gray;
+    margin-left: 0.2em;
+    border-radius: 0.2em;
+  }
+
+  span {
+    padding: 0.2em 0.2em;
+  }
+}
+
+.inputOutput-div {
+  height: 24vh;
+  width: 100vw;
+  background-color: #23252b;
+  color: azure;
+  padding: 0.7rem;
+  overflow: auto;
+}
+
+.input-value-box {
+  height: 100%;
+  width: 100%;
+  background-color: #23252b;
+  color: azure;
+  padding: 0.7rem;
+  overflow: auto;
+  outline: none;
+  border: none;
+  resize: none;
+}
