@@ -1,8 +1,5 @@
 {
   "name": "frontend",
-  "home": "https://Hitesh-Attri.github.io/R/judge0-API",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "private": true,
   "version": "0.0.0",
   "type": "module",
